@@ -11,6 +11,20 @@ nav {
   font-weight: 700;
 }
 
+.btn-primary {
+  background-color: #f55800;
+}
+
+.btn-primary:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.btn-primary:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
 .social-media-links {
   height: 150px;
   width: fit-content;
@@ -24,4 +38,13 @@ nav {
 .social-media-link {
   color: #cfcfcf;
   text-decoration: none;
+}
+
+#about .row {
+  height: 400px;
+}
+
+#about ul {
+  padding-left: 0;
+  list-style-type: none;
 }
