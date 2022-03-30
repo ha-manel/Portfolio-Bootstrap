@@ -13,6 +13,7 @@ nav {
 
 .btn-primary {
   background-color: #f55800;
+  border: none;
 }
 
 .btn-primary:hover {
@@ -53,6 +54,24 @@ nav {
   font-size: 35px;
 }
 
-#contact .row {
+#form {
   height: 500px;
+}
+
+#contact .social-media-links {
+  width: 150px;
+  flex-direction: row;
+}
+
+#contact .social-media-link {
+  color: #505f79;
+}
+
+.badge {
+  width: fit-content;
+  display: inline-block;
+}
+
+#badge {
+  width: fit-content;
 }
