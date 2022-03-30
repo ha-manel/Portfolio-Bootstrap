@@ -50,8 +50,8 @@ To run the project open the downloaded folder (after extraction) then run the "*
 👤 **Harold Mudosa**
 
 - GitHub: [@haroldmud](https://github.com/haroldmud)
-- Twitter: [](https://twitter.com/)
-- LinkedIn: [Harold Mudosa](https://www.linkedin.com/in/)
+- Twitter: [@MudosaHarold](https://twitter.com/MudosaHarold)
+- LinkedIn: [Harold Mudosa](https://www.linkedin.com/in/harold-mudosa-40124021b/)
 
 ## 🤝 Contributing
 
