@@ -48,3 +48,11 @@ nav {
   padding-left: 0;
   list-style-type: none;
 }
+
+#contact p {
+  font-size: 35px;
+}
+
+#contact .row {
+  height: 500px;
+}
