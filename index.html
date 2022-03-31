@@ -89,7 +89,7 @@
               <span class="badge bg-secondary">ruby</span>
             </div>
           </div>
-          <button type="button" class="btn-lg btn-primary mt-3">See Project</button>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modal"  class="btn-lg btn-primary mt-3">See Project</button>
         </div>
       </div>
       <div class="row no-gutters row-cols-3">
@@ -301,6 +301,46 @@
         </div>
       </div>
     </section>
+  </div>
+
+  <div class="modal" id="modal" tabindex="-1">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Project details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row px-5">
+            <h3 class="">Keeping track of hundreds  of components website</h3>
+            <div class="row row-cols-3 mx-auto g-1 mb-4">
+              <div class="col" id="badge">
+                <span class="badge bg-secondary">html</span>
+              </div>
+              <div class="col" id="badge">
+                <span class="badge bg-secondary">bootstrap</span>
+              </div>
+              <div class="col" id="badge">
+                <span class="badge bg-secondary">ruby</span>
+              </div>
+            </div>
+          </div>
+          <div class="row px-5">
+            <div class="col">
+              <img id="big-project-img" src="./images/project-image-2.png" alt="">
+            </div>
+            <div class="col">
+              <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">See live</button>
+          <button type="button" class="btn btn-primary">See source</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
