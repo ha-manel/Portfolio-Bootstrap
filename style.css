@@ -85,7 +85,8 @@ body {
   width: fit-content;
 }
 
-#big-project-img, #modal-img {
+#big-project-img, 
+#modal-img {
   width: 100%;
 }
 
@@ -95,11 +96,11 @@ body {
   overflow: auto;
 }
 
-.card{
+.card {
   width: 20rem;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .social-media-links {
     height: 150px;
     width: fit-content;
@@ -107,7 +108,7 @@ body {
     list-style-type: none;
   }
 
-  #contact .social-media-links{
+  #contact .social-media-links {
     width: 150px;
     height: fit-content;
   }
@@ -116,7 +117,9 @@ body {
     height: 650px;
     width: 100vw;
   }
-  #big-project-img, #modal-img {
+
+  #big-project-img, 
+  #modal-img {
     width: 500px;
   }
 
@@ -124,11 +127,11 @@ body {
     height: 400px;
   }
 
-  #contact p{
+  #contact p {
     font-size: 35px;
   }
 
-  #form{
+  #form {
     height: 500px;
   }
 }
