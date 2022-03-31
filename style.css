@@ -1,9 +1,18 @@
-nav {
-  background-color: #3e3c3c;
+html{
+  width: 100vw;
+}
+
+body{
+  width: 100vw;
+}
+
+nav{
+  width: 100vw;
 }
 
 #headline .row {
-  height: 650px;
+  height: 500px;
+  width: 100vw;
 }
 
 .display-2 {
@@ -13,7 +22,7 @@ nav {
 
 .btn-primary {
   background-color: #f55800;
-  border: none;
+  border: #f55800;
 }
 
 .btn-primary:hover {
@@ -26,23 +35,17 @@ nav {
   color: #f4f1f0;
 }
 
-.social-media-links {
-  height: 150px;
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 0;
-  list-style-type: none;
-}
-
-.social-media-link {
-  color: #cfcfcf;
-  text-decoration: none;
+.btn-primary:focus{
+  background-color: #f55800;
+  border: #f55800;
 }
 
 #about .row {
-  height: 400px;
+  height: 450px;
+}
+
+#about .row:nth-child(2){
+  height: 800px;
 }
 
 #about ul {
@@ -51,16 +54,25 @@ nav {
 }
 
 #contact p {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 #form {
-  height: 500px;
+  height: 600px;
 }
 
-#contact .social-media-links {
+.social-media-links {
   width: 150px;
+  padding: 0;
+  justify-content: space-between;
+  display: flex;
   flex-direction: row;
+  list-style-type: none;
+}
+
+.social-media-link {
+  color: #cfcfcf;
+  text-decoration: none;
 }
 
 #contact .social-media-link {
@@ -76,10 +88,47 @@ nav {
   width: fit-content;
 }
 
-#big-project-img{
-  width: 500px;
+#big-project-img, #modal-img {
+  width: 100%;
 }
 
-/* .modal-dialog{
-  width: 1156px;
-} */
+.scrollspy-example {
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 768px){
+  .social-media-links {
+    height: 150px;
+    width: fit-content;
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  #contact .social-media-links{
+    width: 150px;
+    height: fit-content;
+  }
+
+  #headline .row {
+    height: 650px;
+    width: 100vw;
+  }
+  #big-project-img, #modal-img {
+    width: 500px;
+  }
+
+  #about .row {
+    height: 400px;
+  }
+
+  #contact p{
+    font-size: 35px;
+  }
+
+  #form{
+    height: 500px;
+  }
+}
+
