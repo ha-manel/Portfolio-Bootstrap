@@ -75,3 +75,7 @@ nav {
 #badge {
   width: fit-content;
 }
+
+#big-project-img{
+  width: 500px;
+}
