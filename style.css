@@ -1,0 +1,135 @@
+html {
+  width: 100vw;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#headline .row {
+  height: 500px;
+  width: 100vw;
+}
+
+.display-2 {
+  color: #f55800;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #f55800;
+  border: #f55800;
+}
+
+.btn-primary:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.btn-primary:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.btn-primary:focus {
+  background-color: #f55800;
+  border: #f55800;
+}
+
+#about .row {
+  height: 450px;
+}
+
+#about .row:nth-child(2) {
+  height: 800px;
+}
+
+#about ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#contact p {
+  font-size: 30px;
+}
+
+#form {
+  height: 700px;
+}
+
+.social-media-links {
+  width: 150px;
+  padding: 0;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.social-media-link {
+  color: #cfcfcf;
+  text-decoration: none;
+}
+
+#contact .social-media-link {
+  color: #505f79;
+}
+
+.badge {
+  width: fit-content;
+  display: inline-block;
+}
+
+.badge-container {
+  width: fit-content;
+}
+
+.big-project-img {
+  width: 100%;
+}
+
+.scrollspy-example {
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+}
+
+.card {
+  width: 20rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .social-media-links {
+    height: 150px;
+    width: fit-content;
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  #contact .social-media-links {
+    width: 150px;
+    height: fit-content;
+  }
+
+  #headline .row {
+    height: 650px;
+    width: 100vw;
+  }
+
+  .big-project-img {
+    width: 500px;
+  }
+
+  #about .row {
+    height: 400px;
+  }
+
+  #contact p {
+    font-size: 35px;
+  }
+
+  #form {
+    height: 500px;
+  }
+}
