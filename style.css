@@ -85,8 +85,7 @@ body {
   width: fit-content;
 }
 
-#big-project-img, 
-#modal-img {
+.big-project-img {
   width: 100%;
 }
 
@@ -118,8 +117,7 @@ body {
     width: 100vw;
   }
 
-  #big-project-img, 
-  #modal-img {
+  .big-project-img {
     width: 500px;
   }
 
@@ -135,4 +133,3 @@ body {
     height: 500px;
   }
 }
-
