@@ -1,13 +1,10 @@
-html{
+html {
   width: 100vw;
 }
 
-body{
+body {
   width: 100vw;
-}
-
-nav{
-  width: 100vw;
+  overflow-x: hidden;
 }
 
 #headline .row {
@@ -35,7 +32,7 @@ nav{
   color: #f4f1f0;
 }
 
-.btn-primary:focus{
+.btn-primary:focus {
   background-color: #f55800;
   border: #f55800;
 }
@@ -44,7 +41,7 @@ nav{
   height: 450px;
 }
 
-#about .row:nth-child(2){
+#about .row:nth-child(2) {
   height: 800px;
 }
 
@@ -58,7 +55,7 @@ nav{
 }
 
 #form {
-  height: 600px;
+  height: 700px;
 }
 
 .social-media-links {
@@ -84,7 +81,7 @@ nav{
   display: inline-block;
 }
 
-#badge {
+.badge-container {
   width: fit-content;
 }
 
@@ -96,6 +93,10 @@ nav{
   position: relative;
   height: 100vh;
   overflow: auto;
+}
+
+.card{
+  width: 20rem;
 }
 
 @media only screen and (min-width: 768px){
