@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> This is a Microverse (@microverse) project which aims at recreating a portfolio design (Figma template) using Bootstrap.
+> A portfolio website created from a Figma design using Bootstrap.
 
 
 ## Requirements
@@ -16,11 +16,10 @@
 
 - HTML5
 - Bootstrap
-- Linters (Lighthouse, Webhint, Stylelint)
 
 ## Live Demo
 
-Check **Live Demo** [here.](https://ha-manel.github.io/Microverse-Portfolio-Bootstrap/)
+Check **Live Demo** [here.](https://ha-manel.github.io/Portfolio-Bootstrap/)
 
 ## Getting Started
 
